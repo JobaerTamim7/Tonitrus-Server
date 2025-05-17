@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "strict": true,
+    "strictNullChecks": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["ESNext"]
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}
