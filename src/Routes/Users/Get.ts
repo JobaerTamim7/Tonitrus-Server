@@ -1,7 +1,7 @@
 import { Request,Response } from "express"
-import { connectDB } from "../../Config/Database"
+import { connectDB } from "../../Config/Database.js"
 import { FindCursor, ObjectId } from "mongodb";
-import { User } from "../../Models/User";
+import { User } from "../../Models/User.js";
 
 const getAllUsers = async (req?: Request, res?: Response): Promise<void> =>{
     const db = await connectDB();

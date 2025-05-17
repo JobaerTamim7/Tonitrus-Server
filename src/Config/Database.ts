@@ -3,10 +3,10 @@ import { Db, MongoClient, ServerApiVersion } from 'mongodb';
 
 dotenv.config()
 
-const uri: string = process.env.MONGO_URI;
-const dbName: string = process.env.MONGO_DB_NAME;
+const uri: string = process.env.MONGO_URI!;
+const dbName: string = process.env.MONGO_DB_NAME!;
 
-let client : MongoClient = null;
+let client : MongoClient|null = null;
 
 
 const connectDB = async(): Promise<Db> =>{

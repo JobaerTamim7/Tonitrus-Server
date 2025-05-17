@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
-import { connectDB } from "../../Config/Database"
-import { User } from "../../Models/User";
+import { connectDB } from "../../Config/Database.js"
+import { User } from "../../Models/User.js";
 
 const addUser = async (req : Request, res: Response)=>{
     const db = await connectDB();

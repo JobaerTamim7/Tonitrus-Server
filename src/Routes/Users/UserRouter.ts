@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { getAllUsers, getUserByID } from "./Get";
-import { addUser } from "./Post";
+import { getAllUsers, getUserByID } from "./Get.js";
+import { addUser } from "./Post.js";
 
 const UserRouter : Router = Router();
 

@@ -1,23 +1,19 @@
 {
   "compilerOptions": {
-    "allowUnreachableCode": false,
-    "strict": true,
-    "strictNullChecks": false,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "baseUrl": "./",
-    "moduleResolution": "nodenext",
-    "module": "NodeNext",
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "lib": ["ESNext"]
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true
+    "target": "ES2024",                        
+    "module": "NodeNext",                      
+    "moduleResolution": "nodenext",            
+    "outDir": "dist",                          
+    "rootDir": "src",                          
+    "strict": true,  
+    "strictNullChecks": false,                          
+    "esModuleInterop": true,                   
+    "forceConsistentCasingInFileNames": true,  
+    "skipLibCheck": true,                      
+    "resolveJsonModule": true,                
+    "noEmitOnError": true,
+    "lib": ["ES2024"]                     
   },
-  "include": ["./src/**/*.ts"],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
