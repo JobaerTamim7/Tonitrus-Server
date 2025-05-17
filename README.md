@@ -8,7 +8,6 @@
 
 ## **Project Learnings**
 - **TypeScript Compiler Options :** 
-<br>
     - Go [here](https://www.typescriptlang.org/tsconfig/) <br>
     - Read the docs througly and you will get most of the answer
     - Major options used in this project:
